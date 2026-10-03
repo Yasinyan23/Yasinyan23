@@ -53,12 +53,12 @@
 
 | Project | What I built | Impact |
 |---|---|---|
-| **Production CV & 3D Biomechanics Pipeline** · FitWise AI | Detection & tracking, per-frame 3D body reconstruction, gait-cycle segmentation, 34 metrics per cycle | Insights within **3 min** of upload |
+| **Production CV & 3D Biomechanics Pipeline** · FitWise AI | Detection & tracking, per-frame 3D body reconstruction, gait-cycle segmentation, 34 metrics per cycle | Insights within **3 min** of upload · **34** metrics, **340** values per gait cycle |
 | **Scalable AI Inference & Model Serving** · FitWise AI | Long-lived PyTorch workers on Celery + RabbitMQ, GCP, retries and reprocessing | **20k+** plays/day · **~68k** reprocessed in ~3 days |
-| **AI Inference Optimization** · FitWise AI | Fixed PyTorch thread oversubscription, SSD-backed I/O, validation against legacy output | **+30–40%** throughput · **0** mismatches |
-| **Tool-Calling AI Agent for Credit Reviews** · Nexa | MCP tools, policy retrieval, guardrails, PII redaction, mandatory human approval | **−52%** review handling time |
-| **Document Intelligence & LLM Evaluation** · Nexa | Schema-validated extraction, 1,700-case golden set, CI regression gate | **96%** field accuracy · **−45%** cost per case |
-| **LLM-Powered Credit Decisioning** · Nexa | RAG over credit policies, pgvector, hybrid search, Pydantic-validated outputs | **−80%** decision time · **50–70k** requests/day |
+| **AI Inference Optimization** · FitWise AI | Fixed PyTorch thread oversubscription, SSD-backed I/O, validation against legacy output | **+30–40%** throughput · **100%** match with legacy metrics · **20M+** samples |
+| **Tool-Calling AI Agent for Credit Reviews** · Nexa | MCP tools over **20** internal services, policy retrieval, guardrails, PII redaction, mandatory human approval | **−52%** review handling time · **20 s** per recommendation, down from 2.5 min |
+| **Document Intelligence & LLM Evaluation** · Nexa | Schema-validated extraction, 1,700-case golden set, CI regression gate | **96%** field accuracy · **1,700** eval cases · **−45%** AI cost per case |
+| **LLM-Powered Credit Decisioning** · Nexa | RAG over credit policies, pgvector, hybrid search, Pydantic-validated outputs | **−80%** decision time · **60%+** fewer manual reviews · **50–70k** requests/day |
 
 ## 📦 Open source
 
@@ -66,7 +66,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Yasinyan23/rag-agent">DocuQuery RAG Agent</a></h3>
-      Strictly grounded RAG microservice: cited answers or a deterministic refusal. Multi-format ingestion, token budgeting, SSE streaming, 160 tests.
+      Strictly grounded RAG microservice: cited answers or a deterministic refusal. Multi-format ingestion, SSE streaming.<br /><b>160</b> tests · <b>~4 s</b> end-to-end answer · <b>−40%</b> prompt tokens via context budget.
       <br /><br />
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
       <img src="https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square" alt="ChromaDB" />
@@ -74,7 +74,7 @@
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Yasinyan23/ai-moderation-api">AI Moderation API</a></h3>
-      Bring-your-own-key moderation across Claude, GPT-4o and Gemini: Fernet-encrypted keys, revocable JWT sessions, a five-strike pipeline.
+      Bring-your-own-key moderation across Claude, GPT-4o and Gemini: Fernet-encrypted keys, revocable JWT sessions, a five-strike pipeline.<br /><b>3</b> AI providers · <b>0.3 s</b> per message · <b>60k</b> messages per minute.
       <br /><br />
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
