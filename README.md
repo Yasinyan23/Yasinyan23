@@ -20,17 +20,34 @@
 
 ## 🛠️ Tech stack
 
+**AI / ML**
+
 <p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,rabbitmq,docker,gcp,gitlab,terraform,linux&perline=10" alt="Python, PyTorch, FastAPI, PostgreSQL, RabbitMQ, Docker, GCP, GitLab, Terraform, Linux" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&perline=10" alt="Python, PyTorch, TensorFlow, OpenCV" />
 </p>
 
-![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-7C5CFF?style=flat-square)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
-![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
+![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge)
+![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-0F766E?style=for-the-badge)
+![AI Agents](https://img.shields.io/badge/AI_Agents_%C2%B7_Tool_Calling-7C5CFF?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-5B21B6?style=for-the-badge)
+![LLM Evals](https://img.shields.io/badge/LLM_Evals-B45309?style=for-the-badge)
+![Fine-tuning](https://img.shields.io/badge/Fine--tuning-BE185D?style=for-the-badge)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=for-the-badge)
+
+**Backend & Infra**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=fastapi,postgres,redis,kafka,rabbitmq,docker,kubernetes,aws,gcp,terraform,gitlab,linux&perline=12" alt="FastAPI, PostgreSQL, Redis, Kafka, RabbitMQ, Docker, Kubernetes, AWS, GCP, Terraform, GitLab CI, Linux" />
+</p>
+
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
 
 ## 🚀 Selected work
 
