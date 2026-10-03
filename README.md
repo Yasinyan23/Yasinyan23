@@ -1,28 +1,24 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yasinyan23/Yasinyan23/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yasinyan23/Yasinyan23/output/github-snake.svg" />
-  <img alt="Snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Yasinyan23/Yasinyan23/output/github-snake.svg" width="100%" />
-</picture>
+<img alt="Snake animation" src="https://raw.githubusercontent.com/Yasinyan23/Yasinyan23/main/github-snake.svg" width="100%" />
 
-<h1 align="center">Hi, I'm Khachatur 👋</h1>
+<h1 align="center">Hi, I'm Khachatur рЯСЛ</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=7C5CFF&center=true&vCenter=true&width=640&lines=Senior+AI+Engineer;Computer+Vision+%C2%B7+3D+Motion+%C2%B7+LLMs;RAG+%C2%B7+Tool-calling+Agents+%C2%B7+MCP;LeetCode+%23229+global+%C2%B7+3%2C276+solved" alt="Senior AI Engineer · Computer Vision · 3D Motion · LLMs · RAG · Agents · MCP" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=7C5CFF&center=true&vCenter=true&width=640&lines=Senior+AI+Engineer;Computer+Vision+%C2%B7+3D+Motion+%C2%B7+LLMs;RAG+%C2%B7+Tool-calling+Agents+%C2%B7+MCP;LeetCode+%23229+global+%C2%B7+3%2C276+solved" alt="Senior AI Engineer ¬Ј Computer Vision ¬Ј 3D Motion ¬Ј LLMs ¬Ј RAG ¬Ј Agents ¬Ј MCP" />
 </p>
 
 <p align="center">
-  <b>I take AI from research prototype to production</b> — computer vision, 3D human motion, LLMs, RAG and agents, built to survive real traffic.
+  <b>I take AI from research prototype to production</b> вАФ computer vision, 3D human motion, LLMs, RAG and agents, built to survive real traffic.
 </p>
 
-## 🧠 About me
+## рЯІ† About me
 
-- 🎥 Building production **computer vision** at **FitWise AI**: match video → 3D human motion reconstruction → 34 biomechanics metrics per gait cycle, **20k+ plays/day** on 30 inference workers.
-- 🏦 Previously led AI & backend for **fintech credit decisioning** at Nexa Product Labs: RAG, tool-calling agents over MCP, LLM evaluation — **−52%** manual-review time, **96%** document field accuracy.
-- 📜 Co-inventor on a **patent** for automated sprint biomechanics assessment from reconstructed 3D body motion.
-- ⚡ **LeetCode #229 global** · 3,276 problems solved, 783 of them Hard.
-- 🎓 M.Sc. in Computer Engineering · 8+ years in software, 4+ in production AI.
+- рЯО• Building production **computer vision** at **FitWise AI**: match video вЖТ 3D human motion reconstruction вЖТ 34 biomechanics metrics per gait cycle, **20k+ plays/day** on 30 inference workers.
+- рЯП¶ Previously led AI & backend for **fintech credit decisioning** at Nexa Product Labs: RAG, tool-calling agents over MCP, LLM evaluation вАФ **вИТ52%** manual-review time, **96%** document field accuracy.
+- рЯУЬ Co-inventor on a **patent** for automated sprint biomechanics assessment from reconstructed 3D body motion.
+- вЪ° **LeetCode #229 global** ¬Ј 3,276 problems solved, 783 of them Hard.
+- рЯОУ M.Sc. in Computer Engineering ¬Ј 8+ years in software, 4+ in production AI.
 
-## 🛠️ Tech stack
+## рЯЫ†пЄП Tech stack
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,rabbitmq,docker,gcp,gitlab,terraform,linux&perline=10" alt="Python, PyTorch, FastAPI, PostgreSQL, RabbitMQ, Docker, GCP, GitLab, Terraform, Linux" />
@@ -36,18 +32,18 @@
 ![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
 
-## 🚀 Selected work
+## рЯЪА Selected work
 
 | Project | What I built | Impact |
 |---|---|---|
-| **Production CV & 3D Biomechanics Pipeline** · FitWise AI | Detection & tracking, per-frame 3D body reconstruction, gait-cycle segmentation, 34 metrics per cycle | Insights within **3 min** of upload |
-| **Scalable AI Inference & Model Serving** · FitWise AI | Long-lived PyTorch workers on Celery + RabbitMQ, GCP, retries and reprocessing | **20k+** plays/day · **~68k** reprocessed in ~3 days |
-| **AI Inference Optimization** · FitWise AI | Fixed PyTorch thread oversubscription, SSD-backed I/O, validation against legacy output | **+30–40%** throughput · **0** mismatches |
-| **Tool-Calling AI Agent for Credit Reviews** · Nexa | MCP tools, policy retrieval, guardrails, PII redaction, mandatory human approval | **−52%** review handling time |
-| **Document Intelligence & LLM Evaluation** · Nexa | Schema-validated extraction, 1,700-case golden set, CI regression gate | **96%** field accuracy · **−45%** cost per case |
-| **LLM-Powered Credit Decisioning** · Nexa | RAG over credit policies, pgvector, hybrid search, Pydantic-validated outputs | **−80%** decision time · **50–70k** requests/day |
+| **Production CV & 3D Biomechanics Pipeline** ¬Ј FitWise AI | Detection & tracking, per-frame 3D body reconstruction, gait-cycle segmentation, 34 metrics per cycle | Insights within **3 min** of upload |
+| **Scalable AI Inference & Model Serving** ¬Ј FitWise AI | Long-lived PyTorch workers on Celery + RabbitMQ, GCP, retries and reprocessing | **20k+** plays/day ¬Ј **~68k** reprocessed in ~3 days |
+| **AI Inference Optimization** ¬Ј FitWise AI | Fixed PyTorch thread oversubscription, SSD-backed I/O, validation against legacy output | **+30вАУ40%** throughput ¬Ј **0** mismatches |
+| **Tool-Calling AI Agent for Credit Reviews** ¬Ј Nexa | MCP tools, policy retrieval, guardrails, PII redaction, mandatory human approval | **вИТ52%** review handling time |
+| **Document Intelligence & LLM Evaluation** ¬Ј Nexa | Schema-validated extraction, 1,700-case golden set, CI regression gate | **96%** field accuracy ¬Ј **вИТ45%** cost per case |
+| **LLM-Powered Credit Decisioning** ¬Ј Nexa | RAG over credit policies, pgvector, hybrid search, Pydantic-validated outputs | **вИТ80%** decision time ¬Ј **50вАУ70k** requests/day |
 
-## 📦 Open source
+## рЯУ¶ Open source
 
 <table>
   <tr>
@@ -70,7 +66,7 @@
   </tr>
 </table>
 
-## 🏆 LeetCode
+## рЯПЖ LeetCode
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yasinyan23/Yasinyan23/output/leetcode-dark.svg" />
@@ -78,7 +74,7 @@
   <img alt="LeetCode: global rank #229, 3,276 problems solved" src="https://raw.githubusercontent.com/Yasinyan23/Yasinyan23/output/leetcode-light.svg" />
 </picture>
 
-## 📫 Connect
+## рЯУЂ Connect
 
 <a href="https://www.linkedin.com/in/yasinyan23pydev/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://t.me/yasinyan23"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
