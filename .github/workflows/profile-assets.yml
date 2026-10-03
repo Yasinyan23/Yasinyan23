@@ -1,5 +1,5 @@
-# Regenerates the contribution snake and the LeetCode card for README.md
-# and publishes them to the `output` branch, which the README links to.
+# Refreshes the LeetCode card for README.md and publishes it to the `output` branch,
+# which the README links to.
 name: profile assets
 
 on:
@@ -18,9 +18,7 @@ jobs:
     timeout-minutes: 10
     steps:
       # served from this repo because the card service is too slow for GitHub's image proxy;
-      # animation=false: the animated card starts invisible and can stay blank inside <img>.
-      # Runs first so dist/ is owned by the runner user: snk runs in a root container,
-      # and a root-owned dist/ makes later writes fail (curl exit 23).
+      # animation=false: the animated card starts invisible and can stay blank inside <img>
       - name: Fetch LeetCode card
         run: |
           mkdir -p dist
@@ -29,14 +27,6 @@ jobs:
               "https://leetcard.jacoblin.cool/KhachaturPepanian?theme=${theme}&ext=heatmap&animation=false" \
               -o "dist/leetcode-${theme}.svg"
           done
-
-      - name: Generate contribution snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
