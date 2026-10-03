@@ -17,6 +17,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # served from this repo because the card service is too slow for GitHub's image proxy;
+      # animation=false: the animated card starts invisible and can stay blank inside <img>.
+      # Runs first so dist/ is owned by the runner user: snk runs in a root container,
+      # and a root-owned dist/ makes later writes fail (curl exit 23).
+      - name: Fetch LeetCode card
+        run: |
+          mkdir -p dist
+          for theme in light dark; do
+            curl --fail --silent --show-error --retry 3 --retry-delay 10 --max-time 60 \
+              "https://leetcard.jacoblin.cool/KhachaturPepanian?theme=${theme}&ext=heatmap&animation=false" \
+              -o "dist/leetcode-${theme}.svg"
+          done
+
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
@@ -24,16 +37,6 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-
-      # served from this repo because the card service is too slow for GitHub's image proxy;
-      # animation=false: the animated card starts invisible and can stay blank inside <img>
-      - name: Fetch LeetCode card
-        run: |
-          for theme in light dark; do
-            curl --fail --silent --show-error --retry 3 --retry-delay 10 --max-time 60 \
-              "https://leetcard.jacoblin.cool/KhachaturPepanian?theme=${theme}&ext=heatmap&animation=false" \
-              -o "dist/leetcode-${theme}.svg"
-          done
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
