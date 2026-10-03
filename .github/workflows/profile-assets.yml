@@ -24,7 +24,7 @@ jobs:
           mkdir -p dist
           for theme in light dark; do
             curl --fail --silent --show-error --retry 3 --retry-delay 10 --max-time 60 \
-              "https://leetcard.jacoblin.cool/KhachaturPepanian?theme=${theme}&ext=heatmap&animation=false" \
+              "https://leetcard.jacoblin.cool/KhachaturPepanian?theme=${theme}&animation=false" \
               -o "dist/leetcode-${theme}.svg"
           done
 
